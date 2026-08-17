@@ -9,13 +9,13 @@ int main(){
     printf("Enter number c : ");
     scanf("%d",&c);
     if(a>b && a>c){
-        printf("a is greatest");
+        printf("%d is greatest",a);
     }
     else if(b>a && b>c){
-        printf("b is greatest");
+        printf("%d is greatest",b);
     }
     else if(c>a && c>b){
-        printf("c is greatest");
+        printf("%d is greatest",c);
     }else {
         printf("all are equal");
     }
